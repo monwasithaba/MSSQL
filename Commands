@@ -6,3 +6,12 @@ $ docker exec -it <containerName> /opt/mssql-tools/bin/sqlcmd -S localhost
 
 # appsettings.json 
  "CodePulseConnectioString": "Server=localhost; Initial Catalog=CodePulselDB; User Id=sa; Password=P@$$w0rd1; TrustServerCertificate=true;"
+
+Server name: localhost,1433
+Authentication: SQL Server Aunthentication
+Login: sa
+Password: 
+
+Connection Security
+Encryption: Mandetory
+Trust server cetificate
